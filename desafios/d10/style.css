@@ -1,0 +1,120 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+body{
+    margin: 0;
+    background-color: #84e1ad;
+}
+p{
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(to top, #195a36 20%, #39cf7c);    
+}
+header > h1{
+    font-family: 'Work Sans';
+    font-size: 2em;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 30px;
+}
+header > p{
+
+    font-size: 1em;
+
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    height: 25px;
+    padding-left: 15px;
+
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+}
+main{
+    margin: auto;
+    width: 820px;
+}
+.conteudo{
+    background-color: white;
+    padding: 10px 10px;
+}
+.conteudo > h1{
+    font-family: idroid;
+    color: darkgreen;
+    margin: 0;
+    padding-top: 20px;
+
+}
+.conteudo > h2{
+    font-family: idroid;
+    background-image: linear-gradient(to left, white, rgba(144, 238, 144, 0.925) 40%);
+    color: darkgreen;
+    padding-left: 10px;
+
+}
+.conteudo  a{
+    text-decoration: none;
+}
+.conteudo2{
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+.container-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.itens-lista{
+    width: 50%;
+}
+.conteudo2 > article{
+    background-color: #c5ebd6;
+    border-radius: 5px;
+}
+.conteudo2 > article > p{
+    padding: 10px 10px;
+    font-size: 1em;
+    
+}
+.conteudo2 > article > h4{
+    background-color: #2fa866;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px 5px 0 0;
+    font-size: 1.2em;
+}
+li{
+    list-style: none;
+}
+.conteudo2 ul li::before{
+    content: '✔'; 
+}
+
+#video{
+    margin: auto;
+    text-align: center;
+    background-color: #1a5c38;
+    padding: 20px 25px;
+}
+footer{
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px 0px;
+}
+footer > p{
+    margin: 0;
+}
